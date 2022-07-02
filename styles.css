@@ -1,0 +1,34 @@
+body {
+    background-color:  hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.qr-code-container {
+    height: 350px;
+    width: 200px;
+    background-color:  hsl(0, 0%, 100%);
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+img {
+    max-height:100%;
+    max-width:100%;
+}
+
+p {
+    font-weight: 400;
+    text-align: center;
+    font-size: 15px;
+    color: gray;
+}
+
+p.section-title {
+    font-weight: 700;
+    color: black;
+}
